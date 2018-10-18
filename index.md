@@ -1,12 +1,44 @@
-## Welcome to GitHub Pages
+# Welcome to DreaMovies App Docs
 
-You can use the [editor on GitHub](https://github.com/DreaMovies/docs/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+In this doc you will be able to see what our goals are for the app and what is the status and possibilitys for the app. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Idea
 
-### Markdown
+The idea for the app is to be able to search, see, listen and share media with your friends without the need to have multiple apps or that the distance between you to prevent from seeing that episode or that movie that you are talking about for so long. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+## Core App
+
+The core app will have the mainly functions so any plugin can require them and work.
+
+ - Torrent content list
+ - Torrent download and stream
+ - link with video, image, sound or iframe will be displayed
+ - Ability to chat with anyone that has the unique ID link
+ - API reader by config provider:
+   - Videos, Sounds (even Iframes)
+   - Chat
+   - Torrent
+ - Local Library viewer
+ - Automatic information finder:
+   - Subtitles
+   - Movies, Tv Shows and Music
+
+### Plugins System
+
+The plugin system will give the oportunity for anyone with an idea or to anything that already exists, to use the app as a place to the end user and what they want to see.
+
+**Package Folder**
+```
+  - plugin_folder
+    - config.json
+    - index.js
+    - view.js
+    - assets
+      - images
+        - mini-logo.png
+        - logo.png
+```
 
 ```markdown
 Syntax highlighted code block
@@ -25,13 +57,3 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DreaMovies/docs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
